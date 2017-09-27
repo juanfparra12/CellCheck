@@ -1,0 +1,57 @@
+input::-webkit-input-placeholder {
+color: #eee !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #eee !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #eee !important;
+}
+
+input:-ms-input-placeholder {
+color: #eee !important;
+}
+
+.nav-tabs >li, .nav-pills >li{
+	float:none;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+}
+.nav-tabs, .nav-pills{
+	text-align: center;
+}
+
+.tabs,.pills{
+	margin:0 auto;
+	padding:0;
+	width:400px;
+}
+
+.green .active a,
+.green .active a:hover,
+.green .active a:focus{
+	background-color:#49B24E;
+}
+.nav-pills > .active > a,
+.nav-pills > .active >a:hover, nav-pills>li>a:hover{
+text-decoration: none;
+font-weight: bold;
+    color: #000 !important;
+  background-color: #49B24E !important;
+  border-radius:6px;
+}
+.nav-pills > li > a{
+    border-radius:6px;
+	color:#49B24E;
+}
+
+#wew{
+	background-color:#555;
+}
+#contractWrapper{
+	background: rgba(70, 70, 70, 0.9);
+	border-radius:8px;
+}
